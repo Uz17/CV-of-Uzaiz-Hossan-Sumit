@@ -1,0 +1,81 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    font-size:  2em;
+    padding-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px grey ;
+}
+
+header:hover{
+    box-shadow: 10px 10px 30px royalblue ;
+    transform: scale(1.2);
+    transition-duration: 2s ;
+}
+.half{
+    width: 40%;
+}
+
+.half1>h2{
+    text-align: center;
+}
+
+.half1{
+    padding-top: 10px;
+    margin-right: 2%;
+    margin-left: 4%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px grey;
+    
+}
+.half1:hover{
+    box-shadow: 10px 10px 30px limegreen;
+}
+main{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    padding-bottom: 50px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body>h1{
+    font-size: 3em;
+    text-align: center;
+}
+div.polaroid {
+    width: 30%;
+    margin: 2%;
+    background-color: white;
+    box-shadow: 10px 10px 30px grey;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+  div.polaroid:hover{
+    box-shadow: 10px 10px 30px red;
+}
+  
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+  footer{
+    text-align: center;
+    color: black;
+    margin: 0;
+}
